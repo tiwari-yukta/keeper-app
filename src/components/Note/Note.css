@@ -20,15 +20,21 @@
   word-wrap: break-word;
 }
 
-.note button {
-  color: #f5ba13;
+.note .btn{
+  background-color: #f5ba13;
   border: none;
-  width: 36px;
+  color: white;
+  border-radius: 10px;
+  width: 80px;
   height: 36px;
   cursor: pointer;
   outline: none;
+  transition: background-color 0.3s, transform 0.2s;
 }
-
+.note .btn:hover{
+  background-color: #e0a10c;
+  transform: scale(1.05);
+}
 @media (max-width: 768px) {
   .note {
     max-width: 100%;
