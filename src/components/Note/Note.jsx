@@ -1,5 +1,6 @@
 import React from "react";
-import "../../public/styles.css";
+//import "../../public/styles.css";
+import "./Note.css";
 function Note(props) {
   function handleClick() {
     props.onDelete(props.id);
